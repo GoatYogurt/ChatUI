@@ -9,7 +9,8 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class PDQController extends Controller implements Initializable {
+
+public class DGHController extends Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         Parent userListLoader = null;

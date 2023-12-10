@@ -1,0 +1,21 @@
+#userListView {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+
+#userListView .list-cell {
+    -fx-background-color: white;
+    -fx-border-color: white;
+    -fx-border-width: 0 0 1 0;
+}
+
+#userListView .list-cell:hover {
+    -fx-background-color: lightgrey;
+    -fx-cursor: hand;
+}
+
+#userListView .list-cell:filled:selected {
+    -fx-background-color: lightgrey;
+    -fx-text-fill: black;
+}
+

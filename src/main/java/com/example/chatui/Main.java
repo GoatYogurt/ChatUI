@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Objects;
 
 public class Main extends Application {
     public static Stage primaryStage;
@@ -17,6 +18,7 @@ public class Main extends Application {
         primaryStage = stage;
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("phanducquan.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
+        scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
         primaryStage.setTitle(Main.APP_TITLE);
         primaryStage.setResizable(false);
         primaryStage.setWidth(900);

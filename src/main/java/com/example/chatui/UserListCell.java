@@ -22,7 +22,7 @@ public class UserListCell extends ListCell<User> {
             imageView.setClip(new Circle(25, 25, Main.AVATAR_RADIUS));
             imageView.setFitHeight(50);
             imageView.setFitWidth(50);
-            setText(user.getName());
+            setText(user.getName() + "\n" + user.getLatestMessage());
             setGraphic(imageView);
         }
     }
