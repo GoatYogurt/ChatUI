@@ -33,18 +33,18 @@ public class UserListController extends Controller implements Initializable {
     public ObservableList<User> getAllUsers() {
         return FXCollections.observableArrayList(
                 new User("Nguyen Hai Nam", new Image("file:src\\main\\resources\\nam.png"), "Hello"),
-                new User("Nguyen Anh Vu", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-                new User("Phan Duc Quan", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello"),
-                new User("Duong Gia Huan", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-                new User("Nguyen Huu Thang", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello")
-//                new User("Tran Huu Cuong", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-//                new User("Ta Xuan Duy", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello"),
-//                new User("Le Hai Minh", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-//                new User("Lam Nguyen Duy Phong", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello"),
-//                new User("Chu Huy Quang", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-//                new User("Nguyen Duc Tam", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello"),
-//                new User("Nguyen Ba Thinh", new Image("file:src\\main\\resources\\facebook.jpg"), "Hi"),
-//                new User("Nguyen Huy Minh", new Image("file:src\\main\\resources\\facebook.jpg"), "Hello")
+                new User("Nguyen Anh Vu", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Phan Duc Quan", new Image("file:src\\main\\resources\\facebook.png"), "Hello"),
+                new User("Duong Gia Huan", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Nguyen Huu Thang", new Image("file:src\\main\\resources\\facebook.png"), "Hello"),
+                new User("Tran Huu Cuong", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Ta Xuan Duy", new Image("file:src\\main\\resources\\facebook.png"), "Hello"),
+                new User("Le Hai Minh", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Lam Nguyen Duy Phong", new Image("file:src\\main\\resources\\facebook.png"), "Hello"),
+                new User("Chu Huy Quang", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Nguyen Duc Tam", new Image("file:src\\main\\resources\\facebook.png"), "Hello"),
+                new User("Nguyen Ba Thinh", new Image("file:src\\main\\resources\\facebook.png"), "Hi"),
+                new User("Nguyen Huy Minh", new Image("file:src\\main\\resources\\facebook.png"), "Hello")
         );
     }
 

@@ -16,7 +16,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         primaryStage = stage;
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("phanducquan.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("nguyenhainam.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         scene.getStylesheets().add(Objects.requireNonNull(getClass().getResource("application.css")).toExternalForm());
         primaryStage.setTitle(Main.APP_TITLE);
